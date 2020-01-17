@@ -1,0 +1,22 @@
+import java.io.IOException;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) throws IOException {
+
+		Scanner sc = new Scanner(System.in);
+
+		int number = sc.nextInt();
+		double  hourWork = sc.nextDouble();
+		double hourValor = sc.nextDouble();
+		double salary = hourValor* hourWork;
+		
+		
+		System.out.printf("NUMBER = "+ number);
+		System.out.printf("\nSALARY = U$ %.2f", salary);
+		System.out.println();
+
+	}
+
+}
